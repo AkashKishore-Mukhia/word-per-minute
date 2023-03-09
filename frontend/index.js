@@ -50,7 +50,7 @@ function handleClick() {
 }
 
 async function createSpan() {
-  const res = await fetch('http://localhost:4000/api/v1/quotes')
+  const res = await fetch('https://comfortable-sandals-bee.cyclic.app/api/v1/quotes')
   const data = await res.json()
   text = data.res
   characterArray = text.split('');
