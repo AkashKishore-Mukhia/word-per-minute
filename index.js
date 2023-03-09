@@ -9,8 +9,6 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 app.use('/api/v1', home)
+connectDb();
 
-
-app.listen(process.env.PORT || 4000, () => {
-  connectDb();
-  console.log(`server is listening at ${process.env.PORT}`)})
+app.listen(process.env.PORT || 4000, () => console.log(`server is listening at ${process.env.PORT}`))
