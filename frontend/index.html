@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>word per minute</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <nav class="nav-center">
+      <div class="nav-header">
+        <h1 class="title">
+          <span>Word</span>
+          <span>Per</span>
+          <span>Minute</span>
+        </h1>
+      </div>
+      <div class="nav-links">
+        <a href="./static/sign-up.html">Sign Up</a>
+        <a href="./static/login.html">Login</a>
+      </div>
+    </nav>
+  </nav>
+
+  <div class="clock">0</div>
+  <div class="result">
+    <span class="wpm"></span>
+  </div>
+  <div class="text-container"></div>
+
+  <div class="input-box-container">
+    <input type="text" id="input-box" autocomplete="off"></input>
+    <div class="type-again">
+      <button id="restart-btn">🔁</button>
+    </div>
+  </div>
+  <div class="result-data">
+    <div class="wpm-result">
+
+    </div>
+    <div class="acc-result">
+
+    </div>
+  </div>
+</body>
+<script type="module" src="./index.js" defer></script>
+</html>
+
