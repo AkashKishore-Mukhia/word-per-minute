@@ -1,0 +1,108 @@
+/* navbar */
+.navbar {
+  background-color: #3B5998
+}
+
+.nav-center {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.nav-header {
+  margin-left: 2rem;
+  color: white;
+  font-family: cursive;
+}
+
+.nav-links {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.nav-links > a {
+  padding-left: 0.5rem;
+  color: hsl(0, 0%, 100%);
+  font-size: large;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+a:hover {
+  color: rgba(197, 185, 185, 0.766);
+}
+
+.nav-header:hover {
+  cursor: pointer;
+}
+
+
+body {
+  background-image: linear-gradient(rgba(0,0,50,0.8), rgba(0,0,50,0.8));
+  margin: 0;
+}
+
+.signIn-container {
+  background-color: white;
+  border: 1px solid black;
+  /* margin: 5rem 35% auto; */
+  height: 400px;
+  /* align-items: center; */
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  /* display: flex; */
+  flex-direction: column;
+  min-width: 400px;
+  padding: 50px 60px 70px;
+}
+
+.input-feild {
+  background: #eaeaea;
+  margin: 15px 0; 
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+
+.input-feild input{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+}
+
+.input-feild i {
+  margin-left: 15px;
+  color: #9999;
+}
+
+p {
+  font-family: system-ui;
+  font-size: 15px;
+  margin-top: 80px;
+}
+
+p a {
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.submit-btn {
+  background: #3c00a0;
+  color: #fff;
+  height: 40px;
+  width: 50%;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  margin-top: 10px;
+}
